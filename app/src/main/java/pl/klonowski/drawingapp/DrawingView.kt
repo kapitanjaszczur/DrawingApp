@@ -13,7 +13,7 @@ class DrawingView (context: Context, attrs: AttributeSet) : View(context, attrs)
     private var mDrawPaint : Paint? = null
     private var mCanvasPaint : Paint? = null
     private var mBrushSize : Float = 0F
-    private var color = Color.BLACK
+    private var color = Color.YELLOW
     private var canvas : Canvas? = null
 
     init {
